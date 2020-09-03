@@ -1,32 +1,28 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+      <div>
+          <img alt="Vue logo" src="./../assets/logo.png">
+
+          <h1>{{ msg }}</h1>
+
+          <p>
+              Currently i'm working at <a href="https://dparagon.com" target="_blank" rel="noreferrer">D'Paragon</a> the biggest exclusive boarding house in Indonesia <br>
+              as a Software Engineer who manage ERP System and several other applications.
+          </p>
+
+          <p>
+              Not only that, I also manage <a href="https://vexagame.com" target="_blank">VexaGame</a> which is a blog that discusses about games and technology in the millennial era
+          </p>
+
+          <h3>Social Link</h3>
+          <ul>
+              <li><a href="https://www.facebook.com/yogiyogs22/" target="_blank" rel="noopener">facebook</a></li>
+              <li><a href="https://www.instagram.com/yogiprasetyawan_/" target="_blank" rel="noopener">instagram</a></li>
+              <li><a href="https://www.linkedin.com/in/yogiprasetyawan" target="_blank" rel="noopener">linkedin</a></li>
+              <li><a href="https://twitter.com/yogs_22" target="_blank" rel="noopener">twitter</a></li>
+              <li><a href="https://github.com/yogs22" target="_blank" rel="noopener">github</a></li>
+          </ul>
+      </div>
   </div>
 </template>
 
@@ -54,5 +50,17 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.hello {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hello div {
+    width: 100%;
 }
 </style>

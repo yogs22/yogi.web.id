@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
       <div>
-          <img alt="Vue logo" src="./../assets/logo.png">
+          <img alt="Yogi Prasetyawan" src="./../assets/logo.png" class="img-logo">
 
           <h1>{{ msg }}</h1>
 
           <p>
-              Currently i'm working at <a href="https://dparagon.com" target="_blank" rel="noreferrer">D'Paragon</a> the biggest exclusive boarding house in Indonesia <br>
-              as a Software Engineer who manage ERP System and several other applications.
+              Currently i'm working at <a href="https://dparagon.com" target="_blank" rel="noreferrer">D'Paragon</a> the biggest exclusive boarding house in Indonesia. <br>
+              Work as Software Engineer who manage ERP System and several other applications with Laravel and Vue.
           </p>
 
           <p>
@@ -49,7 +49,9 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .hello {
@@ -62,5 +64,11 @@ a {
 
 .hello div {
     width: 100%;
+}
+
+.img-logo {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 </style>

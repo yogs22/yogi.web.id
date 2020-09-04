@@ -1,4 +1,4 @@
-# yogi
+# Yogi Prasetyawan - Profile Page
 
 ## Project setup
 ```

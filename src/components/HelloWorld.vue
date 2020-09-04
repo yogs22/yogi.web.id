@@ -11,13 +11,12 @@
           </p>
 
           <p>
-              Not only that, I also manage <a href="https://vexagame.com" target="_blank">VexaGame</a> which is a blog that discusses about games and technology in the millennial era
+              Not only that, I also manage <a href="https://vexagame.com" target="_blank">VexaGame</a> which is a blog that discusses about games and technology in the millennial era.
           </p>
 
           <h3>Social Link</h3>
           <ul>
               <li><a href="https://www.facebook.com/yogiyogs22/" target="_blank" rel="noopener">facebook</a></li>
-              <li><a href="https://www.instagram.com/yogiprasetyawan_/" target="_blank" rel="noopener">instagram</a></li>
               <li><a href="https://www.linkedin.com/in/yogiprasetyawan" target="_blank" rel="noopener">linkedin</a></li>
               <li><a href="https://twitter.com/yogs_22" target="_blank" rel="noopener">twitter</a></li>
               <li><a href="https://github.com/yogs22" target="_blank" rel="noopener">github</a></li>

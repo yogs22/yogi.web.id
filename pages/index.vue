@@ -1,5 +1,16 @@
 <template>
-  <Tutorial/>
+  <el>
+    <Navbar />
+    <Header />
+    <About />
+    <Education />
+    <Experience />
+    <Project />
+    <Award />
+    <Skill />
+    <Testimoni />
+    <Footer />
+  </el>
 </template>
 
 <script>

@@ -1,0 +1,125 @@
+/** navbar **/
+nav {
+  background-color: var(--white);
+  padding: 25px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+nav.scrolled {
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.04);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+nav ul li {
+  margin-left: 35px;
+  display: inline;
+}
+
+nav ul li a {
+  color: var(--black);
+}
+
+/** header **/
+header {
+  margin-top: 100px;
+  height: calc(100vh - 100px)
+}
+
+header .title {
+  font-size: 65px;
+}
+
+header h1 {
+  margin: 0px;
+  font-size: 65px;
+}
+
+/** journey **/
+.container-journey {
+  width: 100%;
+}
+
+.container-journey .dot {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 30px;
+  z-index: 9;
+  margin-bottom: 40px;
+}
+
+.container-journey .dot .circle {
+  max-width: 20px;
+  width: 100%;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #FBD0D0;
+  background: #FBD0D0;
+  position: relative;
+  margin-top: 2px;
+  z-index: 2;
+}
+
+.container-journey .dot .circle.line:before,
+.container-journey .dot .circle.line-two:before {
+  content: "";
+  background-color: #FBD0D0;
+  position: absolute;
+  height: 120px;
+  width: 1px;
+  left: 50%;
+}
+
+.container-journey .dot .circle.line:before {
+  background: linear-gradient(var(--primary), #FBD0D0);
+}
+
+/** project **/
+
+/** award **/
+#award strong {
+  color: var(--black);
+}
+
+#award .card-body {
+  background: #FFF5F5;
+  padding: 35px;
+  border-radius: 5px;
+}
+
+/** skill **/
+#skill .img {
+  border-radius: 50%;
+  background: var(--white);
+  height: 110px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/** footer **/
+footer {
+  padding: 5rem 0px;
+  background: #FDE0E0;
+}
+
+footer .emoji {
+  font-size: 5rem;
+}
+
+footer .text-muted {
+  color: #D0D0D0;
+}
+
+hr {
+  border: 1px solid #D0D0D0;
+}

@@ -1,8 +1,22 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
-    <h1>This is about</h1>
-  </div>
+  <section id="about" class="bg-grey">
+    <div class="container">
+      <div class="row d-flex align-items-center flex-wrap">
+        <div class="col-md-5 col-sm-12">
+          <img src="~/static/img/about.png" alt="about yogi">
+        </div>
+        <div class="col-md-7 col-sm-12">
+          <label class="text-danger mb-2 d-block">Yogi Prasetyawan</label>
+          <h2 class="m-0">Know More About Me</h2>
+          <p>I am a Software Engineer who have about 5 years experience. My activities are always creative, of course I direct it according to the project and the achievement of mutual success. Feel free to create some awesome's with me</p>
+          <p class="mb-4"><strong>Languages</strong></p>
+          <span class="d-block mb-2">🇮🇩 Indonesia Native</span>
+          <span class="d-block">🇬🇧 English Fluent</span>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

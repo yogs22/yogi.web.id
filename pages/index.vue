@@ -1,5 +1,5 @@
 <template>
-  <el>
+  <div>
     <Navbar />
     <Header />
     <About />
@@ -10,7 +10,7 @@
     <Skill />
     <Testimoni />
     <Footer />
-  </el>
+  </div>
 </template>
 
 <script>

@@ -1,8 +1,35 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
-    <h1>This is Education</h1>
-  </div>
+  <section id="education">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-sm-12">
+          <img src="~/static/img/study.png" class="w-auto" alt="education image">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h2 class="mt-0">My Education Journey</h2>
+          <div class="container-journey">
+            <div class="dot">
+              <div class="circle bg-primary line"></div>
+              <div>
+                <strong class="d-block">Informatic Technics (Bachelor Degree)</strong>
+                <span class="d-block text-muted">Mercu Buana University</span>
+                <span class="d-block text-muted">2020 - 2024</span>
+              </div>
+            </div>
+            <div class="dot">
+              <div class="circle"></div>
+              <div>
+                <strong class="d-block">Software Engineering</strong>
+                <span class="d-block text-muted">SMKN 1 Mejayan</span>
+                <span class="d-block text-muted">2016 - 2018</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>

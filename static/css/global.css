@@ -1,0 +1,150 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --primary: #DF3333;
+  --primary-old: #D03131;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'jakarta';
+  src: url('~/static/fonts/PlusJakartaSans-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 16px;
+  font-family: 'jakarta';
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+a:hover, a {
+  text-decoration: none;
+}
+
+section {
+  padding: 5rem 0px;
+}
+
+p {
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.bg-grey {
+  background-color: #F6F6F6
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-danger {
+  color: var(--primary);
+}
+
+.text-muted {
+  color: #7D7C7C;
+}
+
+.text-lg {
+  font-size: 1.2rem;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+/** button **/
+.btn {
+  border-radius: 3px;
+  padding: 15px 35px;
+  transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border: 2px solid var(--primary);
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.btn-primary-outline:hover,
+.btn-primary:hover {
+  background-color: var(--primary-old);
+  border: 2px solid var(--primary-old);
+  color: var(--white);
+}

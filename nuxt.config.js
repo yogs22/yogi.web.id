@@ -17,7 +17,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/static/css/bootstrap.min.css',
+    '~/static/css/bootstrap-utilities.min.css',
+    '~/static/css/bootstrap-grid.min.css',
+    '~/static/css/global.css',
     '~/static/css/style.css',
   ],
 

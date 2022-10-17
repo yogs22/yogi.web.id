@@ -80,18 +80,6 @@ h2 {
   display: block;
 }
 
-.d-flex {
-  display: flex;
-}
-
-.align-items-center {
-  align-items: center;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -106,6 +94,10 @@ h2 {
 
 .text-lg {
   font-size: 1.2rem;
+}
+
+.text-md {
+  font-size: 1rem;
 }
 
 .text-sm {

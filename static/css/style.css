@@ -6,10 +6,14 @@ nav {
   width: 100%;
   top: 0;
   z-index: 100;
+  transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
 }
 
 nav.scrolled {
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 10px rgba(56,56,64,.26);
 }
 
 nav ul {
@@ -82,6 +86,19 @@ header h1 {
 }
 
 /** project **/
+.project {
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 5px;
+}
+
+.project-body {
+  padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.project .text-sm {
+  font-size: 0.8rem;
+}
 
 /** award **/
 #award strong {
@@ -106,20 +123,37 @@ header h1 {
   margin: auto;
 }
 
+/** testi **/
+#testimoni {
+  background: url('~/static/img/bg-testi.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /** footer **/
-footer {
+#contact {
   padding: 5rem 0px;
-  background: #FDE0E0;
+  background: url('~/static/img/bg-contact.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-footer .emoji {
+#contact .emoji {
   font-size: 5rem;
+  margin-top: 2rem;
 }
 
-footer .text-muted {
+#contact .text-muted {
   color: #D0D0D0;
 }
 
-hr {
-  border: 1px solid #D0D0D0;
+.border-bottom {
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.pin {
+  position: relative;
+  top: 2px;
 }

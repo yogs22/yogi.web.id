@@ -1,6 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
-  <nav id="nav">
+  <nav id="nav" :class="{scrolled: scrollPosition > 30}">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
@@ -10,7 +10,7 @@
           <ul class="float-right">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experiences</a></li>
-            <li><a href="#portfolio">Portfolios</a></li>
+            <li><a href="#project">Portfolios</a></li>
             <li><a href="#award">Awards</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -23,18 +23,17 @@
 <script>
 export default {
   name: 'Navbar',
-  created() {
-    this.hasScrolled()
+  data() {
+    return {
+      scrollPosition: null
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll);
   },
   methods: {
-    hasScrolled(){
-      // console.log(window.scrollY)
-      // var navbar = document.getElementById('nav');
-      // if (window.scrollY > 100) {
-      //   navbar.classList.add('scrolled');
-      // } else {
-      //   navbar.classList.remove('scrolled');
-      // }
+    updateScroll() {
+       this.scrollPosition = window.scrollY
     }
   }
 }

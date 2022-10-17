@@ -1,6 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
-  <section id="education" class="pt-3">
+  <section id="experience" class="pt-3">
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6 col-sm-12">

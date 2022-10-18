@@ -4,7 +4,7 @@
     <div id="contact" class="text-center">
       <p class="emoji mb-3">🎉</p>
       <h2 class="mb-3">Got a Project? Contact Me</h2>
-      <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing divit. Neque vulputate ut et cursus consectetur nibh quam.</p>
+      <p class="text-muted mb-5 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing divit. Neque vulputate ut et cursus consectetur nibh quam.</p>
       <a href="#contact" class="btn btn-primary mr-3">Contact Me</a>
     </div>
     <div class="container text-sm">

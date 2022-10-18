@@ -30,19 +30,62 @@ nav ul li a {
   color: var(--black);
 }
 
+.nav-icon {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
 /** header **/
 header {
   margin-top: 100px;
   height: calc(100vh - 100px)
 }
 
-header .title {
+header .header-img {
+  width: 45%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+header .title,
+header h1 {
   font-size: 65px;
 }
 
-header h1 {
-  margin: 0px;
-  font-size: 65px;
+header .header-row {
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  header .header-img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .header-row {
+    align-items: baseline;
+  }
+
+  header .title,
+  header h1 {
+    font-size: 40px;
+  }
+
+  header .header-img {
+    width: 100%;
+  }
+
+  header .btn {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .w-sm-100 {
+    width: 100% !important;
+  }
 }
 
 /** journey **/
@@ -69,6 +112,10 @@ header h1 {
   position: relative;
   margin-top: 2px;
   z-index: 2;
+}
+
+.container-journey .dot .circle.line {
+  border: 1px solid #DF3333;
 }
 
 .container-journey .dot .circle.line:before,

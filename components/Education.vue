@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6 col-sm-12">
-          <img src="~/static/img/study.png" class="w-auto" alt="education image">
+          <img src="~/static/img/study.png" class="w-75" alt="education image">
         </div>
         <div class="col-md-6 col-sm-12">
           <h2 class="mt-0">My Education Journey</h2>

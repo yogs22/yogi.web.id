@@ -1,25 +1,25 @@
 <!-- Please remove this file from your project -->
 <template>
-  <header>
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-md-7 col-sm-12">
-          <div class="mb-5 title">
+  <header class="w-100 position-relative">
+    <img src="~/static/img/header.png" class="header-img" alt="yogi prasetyawan">
+    <div class="container h-100">
+      <div class="row header-row h-100">
+        <div class="col-lg-7">
+          <div class="mb-lg-5 mb-4 title">
             <strong>Hi 👋 I am</strong>
-            <h1>Yogi Prasetyawan</h1>
+            <h1 class="m-0">Yogi Prasetyawan</h1>
           </div>
-          <div class="mb-5">
-            <p class="m-0">Hello, I am a Software Engineer for about 5 years in</p>
-            <p class="m-0">the field of Software Engineering</p>
+          <div class="mb-lg-5 mb-4">
+            <div class="w-75 w-sm-100">
+              <p class="m-0">Hello, I am a Software Engineer for about 5 years in the field of Software Engineering</p>
+            </div>
           </div>
           <div class="pt-3">
-            <a href="#contact" class="btn btn-primary mr-3">Contact Me</a>
+            <a href="#contact" class="btn btn-primary mr-md-3 mr-1">Contact Me</a>
             <a href="#contact" class="btn btn-primary-outline">Download CV</a>
           </div>
         </div>
-        <div class="col-md-5 col-sm-12">
-          <img src="~/static/img/header.png" alt="yogi prasetyawan">
-        </div>
+        <div class="col-lg-5"></div>
       </div>
     </div>
   </header>

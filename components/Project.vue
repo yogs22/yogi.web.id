@@ -7,7 +7,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="row mt-5">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
           <div class="project">
             <div class="project-header">
               <img src="~/static/img/projects/dparagon.png" class="w-100" alt="dparagon project">
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
           <div class="project">
             <div class="project-header">
               <img src="~/static/img/projects/djurkam.png" class="w-100" alt="djurkam project">
@@ -29,7 +29,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
           <div class="project">
             <div class="project-header">
               <img src="~/static/img/projects/djurvoc.png" class="w-100" alt="djurvoc project">

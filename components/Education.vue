@@ -3,7 +3,7 @@
   <section id="education">
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
           <img src="~/static/img/study.png" class="w-75" alt="education image">
         </div>
         <div class="col-md-6 col-sm-12">

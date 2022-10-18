@@ -5,11 +5,11 @@
     <div class="container h-100">
       <div class="row header-row h-100">
         <div class="col-lg-7">
-          <div class="mb-lg-5 mb-4 title">
+          <div class="mb-4 title">
             <strong>Hi 👋 I am</strong>
             <h1 class="m-0">Yogi Prasetyawan</h1>
           </div>
-          <div class="mb-lg-5 mb-4">
+          <div class="mb-4">
             <div class="w-75 w-sm-100">
               <p class="m-0">Hello, I am a Software Engineer for about 5 years in the field of Software Engineering</p>
             </div>

@@ -108,6 +108,10 @@ h2 {
   border-radius: 50%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /** button **/
 .btn {
   border-radius: 3px;
@@ -135,4 +139,16 @@ h2 {
   background-color: var(--primary-old);
   border: 2px solid var(--primary-old);
   color: var(--white);
+}
+
+/** svg icon **/
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
 }

@@ -210,6 +210,11 @@ header .header-row {
   background-repeat: no-repeat;
 }
 
+#testimoni .testi-img {
+  width: 100px;
+  margin: auto;
+}
+
 /** footer **/
 #contact {
   padding: 5rem 0px;

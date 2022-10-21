@@ -1,11 +1,13 @@
 <!-- Please remove this file from your project -->
 <template>
   <div id="navbar">
-    <nav id="nav" :class="{scrolled: scrollPosition > 30}">
+    <nav id="nav" :class="{scrolled: scrollPosition > 10}">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-4">
-            <img src="~/static/img/nav-icon.png" alt="yogi nav icon">
+            <nuxt-link to="/">
+              <img src="~/static/img/nav-icon.png" alt="yogi nav icon">
+            </nuxt-link>
           </div>
           <div class="col-8">
             <ul class="float-right d-lg-block d-none">
@@ -61,8 +63,13 @@ export default {
     scrollTo(event) {
       this.showSidebar(false)
       event.preventDefault();
+      const target = event.currentTarget.getAttribute('href');
 
-      document.querySelector(event.currentTarget.getAttribute('href')).scrollIntoView({
+      if (this.$route.params.id) {
+        return window.location.href = `/${target}`;
+      }
+
+      document.querySelector(target).scrollIntoView({
           behavior: 'smooth'
       });
     }

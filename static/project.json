@@ -1,0 +1,42 @@
+[
+  {
+    "name": "D'Paragon",
+    "img": "dparagon.png",
+    "slug": "dparagon",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+    "url": "https://dparagon.com",
+    "stack": ["vuejs", "laravel", "mysql", "bootstrap"]
+  },
+  {
+    "name": "Djuragan Kamar",
+    "img": "djurkam.png",
+    "slug": "djurkam",
+    "description": "<p>Test</p><p>hi</p>",
+    "url": "https://djuragankamar.com",
+    "stack": ["vuejs", "laravel"]
+  },
+  {
+    "name": "Djuragan Voucher",
+    "img": "djurvoc.png",
+    "slug": "djurvoc",
+    "description": "<p>Test</p><p>hi</p>",
+    "url": "https://djuraganvoucher.com",
+    "stack": ["vuejs", "laravel"]
+  },
+  {
+    "name": "Vexa Game",
+    "img": "vexagame.png",
+    "slug": "vexagame",
+    "description": "<p>Test</p><p>hi</p>",
+    "url": "https://vexagame.com",
+    "stack": ["vuejs", "laravel"]
+  },
+  {
+    "name": "Pantai Cahaya",
+    "img": "pantaicahaya.png",
+    "slug": "pantaicahaya",
+    "description": "<p>Test</p><p>hi</p>",
+    "url": "https://pantaicahaya.co.id",
+    "stack": ["vuejs", "laravel"]
+  }
+]

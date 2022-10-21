@@ -5,60 +5,34 @@
         <h2 class="mb-2">Take a look at my recent projects</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-      <div class="w-100 mt-5">
+      <no-ssr class="w-100 mt-5">
         <carousel :loop="true" :nav="true" :margin="25" :responsive="{0:{items:1},461:{items:2},821:{items:3}}">
-          <div class="w-100 mb-5">
+          <client-only class="w-100" v-for="(project, key) in projects" :key="key">
             <div class="project">
               <div class="project-header">
-                <img src="~/static/img/projects/dparagon.png" class="w-100" alt="dparagon project">
+                <img :src="`/img/projects/${project.img}`" class="w-100" :alt="`${project.name} project`">
               </div>
               <div class="project-body">
-                <strong class="d-block text-lg mb-1">D'Paragon</strong>
-                <a href="#" class="text-sm">See Project Detail</a>
+                <strong class="d-block text-lg mb-1">{{ project.name }}</strong>
+                <nuxt-link :to="`/project/${project.slug}`" class="text-sm">See Project Detail</nuxt-link>
               </div>
             </div>
-          </div>
-          <div class="w-100 mb-5">
-            <div class="project">
-              <div class="project-header">
-                <img src="~/static/img/projects/djurkam.png" class="w-100" alt="djurkam project">
-              </div>
-              <div class="project-body">
-                <strong class="d-block text-lg mb-2">Djuragan Kamar</strong>
-                <a href="#" class="text-sm">See Project Detail</a>
-              </div>
-            </div>
-          </div>
-          <div class="w-100 mb-5">
-            <div class="project">
-              <div class="project-header">
-                <img src="~/static/img/projects/vexagame.png" class="w-100" alt="vexagame project">
-              </div>
-              <div class="project-body">
-                <strong class="d-block text-lg mb-2">Vexa Game</strong>
-                <a href="#" class="text-sm">See Project Detail</a>
-              </div>
-            </div>
-          </div>
-          <div class="w-100 mb-5">
-            <div class="project">
-              <div class="project-header">
-                <img src="~/static/img/projects/djurvoc.png" class="w-100" alt="djurvoc project">
-              </div>
-              <div class="project-body">
-                <strong class="d-block text-lg mb-2">Djuragan Voucher</strong>
-                <a href="#" class="text-sm">See Project Detail</a>
-              </div>
-            </div>
-          </div>
+          </client-only>
         </carousel>
-      </div>
+      </no-ssr>
     </div>
   </section>
 </template>
 
 <script>
+import projectsData from "~/static/project.json";
+
 export default {
-  name: 'Project'
+  name: 'Project',
+  data() {
+    return {
+      projects: projectsData
+    }
+  }
 }
 </script>

@@ -16,7 +16,7 @@
           </div>
           <div class="pt-3">
             <a href="#contact" class="btn btn-primary mr-md-3 mr-1">Contact Me</a>
-            <a href="#contact" class="btn btn-primary-outline">Download CV</a>
+            <a href="https://drive.google.com/file/d/1Z0Bu6OgOZ_MI8MW-oLnnnnuUovBDnQ3Q/view?usp=sharing" target="_blank" class="btn btn-primary-outline">Download CV</a>
           </div>
         </div>
         <div class="col-lg-5"></div>

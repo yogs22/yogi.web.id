@@ -3,7 +3,7 @@
     "name": "D'Paragon",
     "img": "dparagon.png",
     "slug": "dparagon",
-    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+    "description": "<p>D'Paragon is the first exclusive boarding & guest house operator network in Indonesia with professional management. Currently already has around 50 branches and spread over 8 major cities. In this Company i use Laravel & Vue JS to handle all projects</p><p><h3>What i do ?</h3></p><p><strong>Develop the company ERP system</strong><br>Integrating all of D'Paragon division in one dashboard system with the module of: Finance, Accounting, Tax, Transaction / Reservation, Room Availability System, Inventory, Engineering, Audit, Front Office, HRD and Generate Report per division</p><p><strong>Make a new system or product with Laravel and Vue.js technology</strong><br>We make a sister company or new business to expand the market on Hospitality Business, as an example : Djuragan Kamar and Djuragan Voucher. There product is D'Paragon Sister Company, we develop that product with Laravel and Vue.js</p><p><strong>Make the IT SOP and migrate from previous IT vendor then we maintain it ourselves</strong><br>D'Paragon is not an IT Company, therefore before I entered, they used IT Vendor to make their system and application. Previously the D'Paragon App is using Firebase and Vue.js and the ERP System using Codeigneter, and finally we try to combine the system in one Technology that is using Laravel for Backend, Vue.js for Front End and React Native for Mobile Apps with more complex feature, more valuable, more clean design and more easy to use. And we trying to simply IT operational with using DevOps culture and Scrum Management.</p><p><strong>Developing new feature and fixing bug for all D'Paragon System</strong><br>I responsible for all of D'Paragon System. Every day i fix a bug and make the new feature to complement all of department need, not only that i was making the API to integrate ERP with Application Service.</p><p><strong>Train the operator system</strong><br>I responsible to train off D'Paragon Staff how to use the system with the specific role, presenting new feature and hear what the department need</p>",
     "url": "https://dparagon.com",
     "stack": ["vuejs", "laravel", "mysql", "bootstrap"]
   },
@@ -11,32 +11,168 @@
     "name": "Djuragan Kamar",
     "img": "djurkam.png",
     "slug": "djurkam",
-    "description": "<p>Test</p><p>hi</p>",
+    "description": "<p>Djuragan Kamar or called Djurkam is a soft launching application in January 2019 in the city of Yogyakarta. Djurkam is an online company that we have created and developed in its service. Unlike other booking or traveling applications, Djurkam not only makes it easier to find suitable rooms, but Djurkam also help in managing room choices to the end, resulting in customer satisfaction. Djurkam's diverse application features will make consumers look for information about specific rooms to be selected.</p><p>I responsible to develop ERP System, API Services for Mobile and Booking System Website using Laravel",
     "url": "https://djuragankamar.com",
-    "stack": ["vuejs", "laravel"]
+    "stack": ["vuejs", "laravel", "mysql", "bootstrap"]
   },
   {
     "name": "Djuragan Voucher",
     "img": "djurvoc.png",
     "slug": "djurvoc",
-    "description": "<p>Test</p><p>hi</p>",
+    "description": "<p>Djuragan Voucher is an Online Voucher Exchange Application Service that is Very Easy to Use by Tenant Djuragan Vouchers and Users of the Djuragan Voucher Application. This project have 5 Platform :</p><ol><li>Website</li><li>Management System</li><li>Member App</li><li>Merchant App</li><li>Operator App</li></ol><p>In this project i was manage the team, make an infrastructure and create an Rest API Service who consumed by Front End Web and Mobile Apps. I use Laravel for this project</p>",
     "url": "https://djuraganvoucher.com",
-    "stack": ["vuejs", "laravel"]
+    "stack": ["nuxt", "laravel", "mysql"]
   },
   {
-    "name": "Vexa Game",
-    "img": "vexagame.png",
+    "name": "V-Store",
+    "img": "vstore.jpeg",
+    "slug": "vstore",
+    "description": "<p>V-Store is a gaming top up website, in this project i used Next JS + Express JS to increase my knowledge</p>",
+    "url": "https://vstore-ten.vercel.app/",
+    "stack": ["reactjs", "next", "mongodb", "expressjs", "nodejs"]
+  },
+  {
+    "name": "Vexa Game Blog",
+    "img": "vexagame.jpeg",
     "slug": "vexagame",
-    "description": "<p>Test</p><p>hi</p>",
-    "url": "https://vexagame.com",
-    "stack": ["vuejs", "laravel"]
+    "description": "<p>VexaGame is game community website who created with WordPress technology and monetize with Google Adsense. I responsible to make the interface with optimized speed and SEO. VexaGame got perfect performance score in Google Lighthouse</p>",
+    "url": "https://.vexagame.com",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Vexa Game Store",
+    "img": "vexagame-store.png",
+    "slug": "vexagame-store",
+    "description": "<p>VexaGame Store is a gaming top up who user can pay with E-Wallet or Bank and we use Payment Gateway to handle all of payments. I use Laravel & Nuxt JS to handle this project</p>",
+    "url": "https://store.vexagame.com",
+    "stack": ["nuxt", "laravel", "mysql"]
+  },
+  {
+    "name": "Vexa Tech",
+    "img": "vexatech.jpeg",
+    "slug": "vexatech",
+    "description": "<p>Vexa Tech is a Software House Landing Page, i use Next JS to create the interface</p>",
+    "url": "https://vexatechno.com/",
+    "stack": ["next", "reactjs"]
+  },
+  {
+    "name": "Vexa Agen Web",
+    "img": "vexaagen-web.jpeg",
+    "slug": "vexaagen-web",
+    "description": "<p>Vexa Agen is platform to order Internet Data, PPOB, Game etc with wholesale price, i make the landing page to indtroduce what is Vexa Agen using Laravel & Bootstrap</p>",
+    "url": "https://vexaagen.com/",
+    "stack": ["laravel", "nuxt"]
+  },
+  {
+    "name": "Vexa Agen App",
+    "img": "vexaagen-app.jpeg",
+    "slug": "vexaagen-app",
+    "description": "<p>Vexa Agen is platform to order Internet Data, PPOB, Game etc with wholesale price. We use Laravel & Nuxt JS to handle this project. I have connected API with 3rd Party and receiving a webhook to update transactions statuses. And we make a user verification who the OTP Code is send to user Whatsapp. We using lot of integration with 3rd Party in this project</p>",
+    "url": "https://app.vexaagen.com/",
+    "stack": ["laravel", "nuxt"]
+  },
+  {
+    "name": "Corenglish",
+    "img": "corenglish.jpeg",
+    "slug": "corenglish",
+    "description": "<p>I'm responsible to maintenance and slicing from sketch design to deployed website with Next JS & Strapi</p>",
+    "url": "https://corenglish-landing-next.vercel.app/",
+    "stack": ["nextjs", "reactjs"]
   },
   {
     "name": "Pantai Cahaya",
     "img": "pantaicahaya.png",
     "slug": "pantaicahaya",
-    "description": "<p>Test</p><p>hi</p>",
+    "description": "<p>Pantai Cahaya is an beach in Kendal, Central Java. I make an company profile with Laravel 8 to make a Landing Page and CMS with focus on performance based on lighthouse insight</p>",
     "url": "https://pantaicahaya.co.id",
-    "stack": ["vuejs", "laravel"]
+    "stack": ["laravel", "bootstrap"]
+  },
+  {
+    "name": "Blue Summer",
+    "img": "bluesummer.png",
+    "slug": "bluesummer",
+    "description": "<p>Bluesummer is creative studio who has 3 division, that is :<ol><li>Wedding</li><li>Film</li><li>Music</li></ol><p>I made a website to showcase the entire portfolio of the studio, where the 3 divisions merge into one connected website. By using WordPress for content management I can shorten the processing time and make it easier for the creator content to create SEO friendly content. This WordPress template created from scratch</p>",
+    "url": "https://bluesummer.netifly.app",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Komisi PSE",
+    "img": "komisipse.png",
+    "slug": "komisipse",
+    "description": "<p>I responsible to make Komisi PSE Foundation website with wordpress. In this project we will show Acitivities of Komisi PSE and and there is also a feature to make a donation</p>",
+    "url": "https://komisipseapp.com",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Seucapkopi",
+    "img": "seucapkopi.png",
+    "slug": "seucapkopi",
+    "description": "<p>I'm responsible to make a landing page for PT. Seucap Kopi Indonesia with Wordpress</p>",
+    "url": "https://seucapkopi.netifly.app",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Bali Tourism",
+    "img": "bali.png",
+    "slug": "bali",
+    "description": "<p>Bali Travel Time is template who i created in Udayana University Competition which has the theme of Balinese culture, I made a website that introduces Balinese culture, tourism places and hotels booking</p>",
+    "url": "https://tourism-bali.netlify.app/",
+    "stack": ["bootstrap"]
+  },
+  {
+    "name": "News BMB",
+    "img": "newsbmb.png",
+    "slug": "newsbmb",
+    "description": "<p>NewsBMB is a news portal website on the island of Kalimantan, here I help the owner to fix some bugs and add features as desired by the owner and we redesign the website styles. This website was developed using Laravel</p>",
+    "url": "https://newsbmb.com",
+    "stack": ["laravel", "bootstrap"]
+  },
+  {
+    "name": "Restu Dunia",
+    "img": "restudunia.png",
+    "slug": "restudunia",
+    "description": "<p>Restu Dunia is a News Wordpress Template. I created the template from stratch</p>",
+    "url": "https://restudunia.netlify.app/",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Mini Medium",
+    "img": "minimedium.png",
+    "slug": "minimedium",
+    "description": "<p>Mini Medium is blog made with Custom Wordpress Template who have interface like medium.com</p>",
+    "url": "https://minimedium.netlify.app/",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "SMKN 1 Mejayan",
+    "img": "smkn1mejayan.png",
+    "slug": "smkn1mejayan",
+    "description": "<p>In this project i maintenance to make Administrator Website of SMKN 1 Mejayan School</p>",
+    "url": "https://smkn1mejayan.sch.id/",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Jadi Ratu",
+    "img": "jadiratu.jpeg",
+    "slug": "jadiratu",
+    "description": "<p>Jadi Ratu is wordpress template, i responsible to create the interface</p>",
+    "url": "https://jadiratu.netlify.app/",
+    "stack": ["wordpress", "bootstrap"]
+  },
+  {
+    "name": "Kudatempur Furniture",
+    "img": "kudatempur.jpeg",
+    "slug": "kudatempur",
+    "description": "<p>Kudatempur is furniture company in Magelang City. Able to create the web interface</p>",
+    "url": "https://kudatempur.netifly.app",
+    "stack": ["bootstrap"]
+  },
+  {
+    "name": "Wallo App",
+    "img": "wallo.jpeg",
+    "slug": "wallo",
+    "description": "<p>Wallo Messenger is an application to do business easily with a chat system. I'm using Lumen framework to create rest API consumed front-end web developer and mobile developer</p>",
+    "url": "https://play.google.com/store/apps/details?id=com.etickoo.wallo",
+    "stack": ["laravel"]
   }
 ]

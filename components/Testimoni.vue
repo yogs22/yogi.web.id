@@ -4,8 +4,8 @@
     <div class="container text-center">
       <div class="mb-3">
         <h2 class="mb-3">What People Says</h2>
-        <span class="text-muted d-block mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
-        <span class="text-muted d-block">tempor incididunt ut labore et dolore magna aliqua.</span>
+        <span class="text-muted d-block mb-2">See people who give me a recomendations</span>
+        <span class="text-muted d-block">based on my Linkedin account</span>
       </div>
       <carousel :loop="true" :items="1" :nav="false" :autoplay="true">
         <div class="p-0 pt-5 px-md-5">

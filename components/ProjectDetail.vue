@@ -6,7 +6,7 @@
           <img :src="`/img/projects/${project.img}`" class="w-100" :alt="`${project.name} project`">
         </div>
         <div class="col-md-7">
-          <nuxt-link to="/#project" class="text-sm">🔙 Back</nuxt-link>
+          <nuxt-link to="/#project" class="text-sm">🔙 Back to All Projects</nuxt-link>
           <div class="w-100">
             <div class="mt-1 mb-md-4 mb-2">
               <h1>{{ project.name }} Project</h1>

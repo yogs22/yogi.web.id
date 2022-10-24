@@ -4,7 +4,7 @@
     <div class="container">
       <div class="mb-5">
         <h2 class="mb-3">The skills that i have</h2>
-        <span class="d-block text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</span>
+        <span class="d-block text-muted">The Medior & Expert is based on the length I used that technology in production level, but Junior is only on development level with a litle experience</span>
       </div>
       <div class="row">
         <div class="col-12">

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="text-center mb-4">
         <h2 class="mb-2">Take a look at my recent projects</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>I have completed various projects with different technologies. The projects that I'm showing is only part of it because I can't show all the projects publicly. Some projects are private and protected by NDA</p>
       </div>
       <no-ssr class="w-100 mt-5">
         <carousel :loop="true" :nav="true" :margin="25" :responsive="{0:{items:1},461:{items:2},821:{items:3}}">

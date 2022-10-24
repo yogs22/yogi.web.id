@@ -5,7 +5,7 @@
       <p class="emoji mb-3">🎉</p>
       <h2 class="mb-3">Got a Project? Contact Me</h2>
       <p class="text-muted mb-5 px-3">Lorem ipsum dolor sit amet, consectetur adipiscing divit. Neque vulputate ut et cursus consectetur nibh quam.</p>
-      <a href="https://wa.me/send?phone=6281228170370" target="_blank" class="btn btn-primary mr-3">Contact Me</a>
+      <a href="mailto:yogiprasetyawan12@gmail.com" target="_blank" class="btn btn-primary mr-3">Contact Me</a>
     </div>
     <div class="container text-sm">
       <div class="row py-4 border-bottom align-items-center">

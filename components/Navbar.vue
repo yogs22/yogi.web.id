@@ -13,7 +13,7 @@
             <ul class="float-right d-lg-block d-none">
               <li><a href="#about" @click="scrollTo($event)">About</a></li>
               <li><a href="#experience" @click="scrollTo($event)">Experiences</a></li>
-              <li><a href="#project" @click="scrollTo($event)">Portfolios</a></li>
+              <li><a href="#project" @click="scrollTo($event)">Portofolios</a></li>
               <li><a href="#award" @click="scrollTo($event)">Awards</a></li>
               <li><a href="#contact" @click="scrollTo($event)">Contact</a></li>
             </ul>
@@ -33,7 +33,7 @@
       <ul class="sidebar-menu">
         <li><a href="#about" @click="scrollTo($event)">About</a></li>
         <li><a href="#experience" @click="scrollTo($event)">Experiences</a></li>
-        <li><a href="#project" @click="scrollTo($event)">Portfolios</a></li>
+        <li><a href="#project" @click="scrollTo($event)">Portofolios</a></li>
         <li><a href="#award" @click="scrollTo($event)">Awards</a></li>
         <li><a href="#contact" @click="scrollTo($event)">Contact</a></li>
       </ul>

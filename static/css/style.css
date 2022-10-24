@@ -90,13 +90,28 @@ header .header-row {
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1920px) {
   header .header-img {
-    width: 60%;
+    width: 524px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+  header .header-img {
+    width: 50%;
+  }
+
+  header .title,
+  header h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  header {
+    height: 730px;
+  }
+
   header .header-row {
     align-items: baseline;
   }
@@ -111,8 +126,8 @@ header .header-row {
   }
 
   header .btn {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .w-sm-100 {

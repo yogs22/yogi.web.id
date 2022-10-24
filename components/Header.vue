@@ -4,7 +4,7 @@
     <img src="~/static/img/header.png" class="header-img" alt="yogi prasetyawan">
     <div class="container h-100">
       <div class="row header-row h-100">
-        <div class="col-lg-7">
+        <div class="col-md-7">
           <div class="mb-4 title">
             <strong>Hi 👋 I am</strong>
             <h1 class="m-0">Yogi Prasetyawan</h1>

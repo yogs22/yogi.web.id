@@ -92,7 +92,7 @@
     "img": "bluesummer.png",
     "slug": "bluesummer",
     "description": "<p>Bluesummer is creative studio who has 3 division, that is :<ol><li>Wedding</li><li>Film</li><li>Music</li></ol><p>I made a website to showcase the entire portfolio of the studio, where the 3 divisions merge into one connected website. By using WordPress for content management I can shorten the processing time and make it easier for the creator content to create SEO friendly content. This WordPress template created from scratch</p>",
-    "url": "https://bluesummer.netifly.app",
+    "url": "https://bluesummer.netlify.app",
     "stack": ["wordpress", "bootstrap"]
   },
   {
@@ -108,7 +108,7 @@
     "img": "seucapkopi.png",
     "slug": "seucapkopi",
     "description": "<p>I'm responsible to make a landing page for PT. Seucap Kopi Indonesia with Wordpress</p>",
-    "url": "https://seucapkopi.netifly.app",
+    "url": "https://seucapkopi.netlify.app",
     "stack": ["wordpress", "bootstrap"]
   },
   {
@@ -164,7 +164,7 @@
     "img": "kudatempur.jpeg",
     "slug": "kudatempur",
     "description": "<p>Kudatempur is furniture company in Magelang City. Able to create the web interface</p>",
-    "url": "https://kudatempur.netifly.app",
+    "url": "https://kudatempur.netlify.app",
     "stack": ["bootstrap"]
   },
   {

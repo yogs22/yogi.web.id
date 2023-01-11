@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Yogi Prasetyawan',
+    title: 'Yogi Prasetyawan - Portfolio Page',
     htmlAttrs: {
       lang: 'en'
     },

@@ -9,25 +9,37 @@
             <div class="dot">
               <div class="circle bg-primary line"></div>
               <div>
+                <strong class="d-block">Frontend Developer</strong>
+                <span class="d-block text-muted mt-1">Luwjistik</span>
+                <span class="d-block text-muted mt-1">2023 - present</span>
+                <span class="d-block text-muted mt-1">Singapore · Remote</span>
+              </div>
+            </div>
+            <div class="dot">
+              <div class="circle bg-primary line"></div>
+              <div>
                 <strong class="d-block">Software Engineer</strong>
-                <span class="d-block text-muted">PT. Royal Dparagon Land</span>
-                <span class="d-block text-muted">2018 - present</span>
+                <span class="d-block text-muted mt-1">PT. Royal Dparagon Land</span>
+                <span class="d-block text-muted mt-1">2018 - 2022</span>
+                <span class="d-block text-muted mt-1">Yogyakarta, Indonesia</span>
               </div>
             </div>
             <div class="dot">
               <div class="circle line-two"></div>
               <div>
                 <strong class="d-block">Web Developer</strong>
-                <span class="d-block text-muted">Geek Garden Software House</span>
-                <span class="d-block text-muted">2018 - 2018</span>
+                <span class="d-block text-muted mt-1">Geek Garden Software House</span>
+                <span class="d-block text-muted mt-1">2018 - 2018</span>
+                <span class="d-block text-muted mt-1">Yogyakarta, Indonesia</span>
               </div>
             </div>
             <div class="dot">
               <div class="circle"></div>
               <div>
                 <strong class="d-block">Student Internship</strong>
-                <span class="d-block text-muted">BLC Telkom Klaten</span>
-                <span class="d-block text-muted">2016 - 2017</span>
+                <span class="d-block text-muted mt-1">BLC Telkom</span>
+                <span class="d-block text-muted mt-1">2016 - 2017</span>
+                <span class="d-block text-muted mt-1">Klaten, Indonesia</span>
               </div>
             </div>
           </div>

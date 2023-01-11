@@ -80,6 +80,14 @@
     "stack": ["nextjs", "reactjs"]
   },
   {
+    "name": "MSBU",
+    "img": "msbu.png",
+    "slug": "msbu",
+    "description": "<p>MSBU is Tech Staffing & Recruiting Company and i responsible to create a Landing Page with CMS using Node JS & Nuxt JS</p>",
+    "url": "https://msbu.co.id",
+    "stack": ["nuxt", "nodejs"]
+  },
+  {
     "name": "Pantai Cahaya",
     "img": "pantaicahaya.png",
     "slug": "pantaicahaya",

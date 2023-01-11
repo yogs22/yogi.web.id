@@ -28,6 +28,7 @@ nav ul li {
 
 nav ul li a {
   color: var(--black);
+  font-weight: 500;
 }
 
 .nav-icon {

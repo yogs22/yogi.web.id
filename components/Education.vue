@@ -13,16 +13,16 @@
               <div class="circle bg-primary line"></div>
               <div>
                 <strong class="d-block">Informatic Technics (Bachelor Degree)</strong>
-                <span class="d-block text-muted">Mercu Buana University</span>
-                <span class="d-block text-muted">2020 - 2024</span>
+                <span class="d-block text-muted mt-1">Mercu Buana University</span>
+                <span class="d-block text-muted mt-1">2020 - 2024</span>
               </div>
             </div>
             <div class="dot">
               <div class="circle"></div>
               <div>
                 <strong class="d-block">Software Engineering</strong>
-                <span class="d-block text-muted">SMKN 1 Mejayan</span>
-                <span class="d-block text-muted">2016 - 2018</span>
+                <span class="d-block text-muted mt-1">SMKN 1 Mejayan</span>
+                <span class="d-block text-muted mt-1">2016 - 2018</span>
               </div>
             </div>
           </div>

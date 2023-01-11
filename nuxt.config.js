@@ -44,7 +44,7 @@ export default {
   },
 
   server: {
-    port: 9021, // default: 3000
+    port: 9201, // default: 3000
     host: '0.0.0.0', // default: localhost,
     timing: false
   },

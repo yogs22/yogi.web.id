@@ -195,6 +195,17 @@ header .header-row {
   font-size: 0.8rem;
 }
 
+.project strong {
+  color: var(--black);
+}
+
+#project .owl-carousel .owl-nav button.owl-prev,
+#project .owl-carousel .owl-nav button.owl-next {
+  padding: 0px 20px 8px 20px !important;
+  font-size: 30px !important;
+  margin-bottom: 10px;
+}
+
 /** award **/
 #award strong {
   color: var(--black);

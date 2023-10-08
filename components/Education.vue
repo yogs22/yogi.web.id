@@ -4,16 +4,24 @@
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
-          <img src="~/static/img/study.png" class="w-75" alt="education image">
+          <img
+            src="~/static/img/study.png"
+            class="w-75"
+            alt="education image"
+          />
         </div>
         <div class="col-md-6 col-sm-12">
-          <h2 class="mt-0">My Education Journey</h2>
+          <h2 class="mt-0">Educational Background</h2>
           <div class="container-journey">
             <div class="dot">
               <div class="circle bg-primary line"></div>
               <div>
-                <strong class="d-block">Informatic Technics (Bachelor Degree)</strong>
-                <span class="d-block text-muted mt-1">Mercu Buana University</span>
+                <strong class="d-block"
+                  >Informatic Technics (Bachelor Degree)</strong
+                >
+                <span class="d-block text-muted mt-1"
+                  >Mercu Buana University</span
+                >
                 <span class="d-block text-muted mt-1">2020 - 2024</span>
               </div>
             </div>
@@ -34,6 +42,6 @@
 
 <script>
 export default {
-  name: 'Education'
-}
+  name: "Education",
+};
 </script>

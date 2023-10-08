@@ -15,6 +15,12 @@
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+  name: "IndexPage",
+};
 </script>
+
+<style>
+.owl-prev {
+  padding: 10px !important;
+}
+</style>

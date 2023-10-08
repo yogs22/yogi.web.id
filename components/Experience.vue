@@ -2,9 +2,9 @@
 <template>
   <section id="experience" class="pt-3">
     <div class="container">
+      <h2 class="mt-0">Professional Experiences</h2>
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6 col-sm-12">
-          <h2 class="mt-0">My Experiences</h2>
           <div class="container-journey">
             <div class="dot">
               <div class="circle bg-primary line"></div>
@@ -19,18 +19,26 @@
               <div class="circle bg-primary line"></div>
               <div>
                 <strong class="d-block">Software Engineer</strong>
-                <span class="d-block text-muted mt-1">PT. Royal Dparagon Land</span>
+                <span class="d-block text-muted mt-1"
+                  >PT. Royal Dparagon Land</span
+                >
                 <span class="d-block text-muted mt-1">2018 - 2022</span>
-                <span class="d-block text-muted mt-1">Yogyakarta, Indonesia</span>
+                <span class="d-block text-muted mt-1"
+                  >Yogyakarta, Indonesia</span
+                >
               </div>
             </div>
             <div class="dot">
               <div class="circle line-two"></div>
               <div>
                 <strong class="d-block">Web Developer</strong>
-                <span class="d-block text-muted mt-1">Geek Garden Software House</span>
+                <span class="d-block text-muted mt-1"
+                  >Geek Garden Software House</span
+                >
                 <span class="d-block text-muted mt-1">2018 - 2018</span>
-                <span class="d-block text-muted mt-1">Yogyakarta, Indonesia</span>
+                <span class="d-block text-muted mt-1"
+                  >Yogyakarta, Indonesia</span
+                >
               </div>
             </div>
             <div class="dot">
@@ -45,7 +53,11 @@
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
-          <img src="~/static/img/experience.png" class="w-100" alt="education image">
+          <img
+            src="~/static/img/experience.png"
+            class="w-100"
+            alt="education image"
+          />
         </div>
       </div>
     </div>
@@ -54,6 +66,6 @@
 
 <script>
 export default {
-  name: 'Experience'
-}
+  name: "Experience",
+};
 </script>

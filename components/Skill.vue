@@ -3,8 +3,12 @@
   <section id="skill" class="bg-grey">
     <div class="container">
       <div class="mb-5">
-        <h2 class="mb-3">The skills that i have</h2>
-        <span class="d-block text-muted">The Medior & Expert is based on the length I used that technology in production level, but Junior is only on development level with a litle experience</span>
+        <h2 class="mb-3">Programming Skills</h2>
+        <span class="d-block text-muted"
+          >The classification of levels is determined by the duration of my
+          experience utilizing the respective technology at the production
+          level.</span
+        >
       </div>
       <div class="row">
         <div class="col-12">
@@ -14,73 +18,73 @@
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/html-css.png" alt="html-css">
+            <img src="~/static/img/skills/html-css.png" alt="html-css" />
           </div>
           <strong class="d-block">HTML & CSS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/javascript.png" alt="javascript">
+            <img src="~/static/img/skills/javascript.png" alt="javascript" />
           </div>
           <strong class="d-block">Javascript</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/php.png" alt="php">
+            <img src="~/static/img/skills/php.png" alt="php" />
           </div>
           <strong class="d-block">PHP</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/mysql.png" alt="mysql">
+            <img src="~/static/img/skills/mysql.png" alt="mysql" />
           </div>
           <strong class="d-block">MySQL</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/laravel.png" alt="laravel">
+            <img src="~/static/img/skills/laravel.png" alt="laravel" />
           </div>
           <strong class="d-block">Laravel</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/bootstrap.png" alt="bootstrap">
+            <img src="~/static/img/skills/bootstrap.png" alt="bootstrap" />
           </div>
           <strong class="d-block">Bootstrap</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/tailwind.png" alt="tailwind">
+            <img src="~/static/img/skills/tailwind.png" alt="tailwind" />
           </div>
           <strong class="d-block">Tailwind</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/vuejs.png" alt="vuejs">
+            <img src="~/static/img/skills/vuejs.png" alt="vuejs" />
           </div>
           <strong class="d-block">Vue JS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/reactjs.png" alt="reactjs">
+            <img src="~/static/img/skills/reactjs.png" alt="reactjs" />
           </div>
           <strong class="d-block">React JS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/nuxt.png" alt="nuxt">
+            <img src="~/static/img/skills/nuxt.png" alt="nuxt" />
           </div>
           <strong class="d-block">Nuxt JS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/next.png" alt="next">
+            <img src="~/static/img/skills/next.png" alt="next" />
           </div>
           <strong class="d-block">Next JS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/git.png" alt="git">
+            <img src="~/static/img/skills/git.png" alt="git" />
           </div>
           <strong class="d-block">Git</strong>
         </div>
@@ -93,61 +97,61 @@
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/nodejs.png" alt="nodejs">
+            <img src="~/static/img/skills/nodejs.png" alt="nodejs" />
           </div>
           <strong class="d-block">Node JS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/python.png" alt="python">
+            <img src="~/static/img/skills/python.png" alt="python" />
           </div>
           <strong class="d-block">Python</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/mongodb.png" alt="mongodb">
+            <img src="~/static/img/skills/mongodb.png" alt="mongodb" />
           </div>
           <strong class="d-block">Mongo DB</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/firebase.png" alt="firebase">
+            <img src="~/static/img/skills/firebase.png" alt="firebase" />
           </div>
           <strong class="d-block">Firebase</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/expressjs.png" alt="expressjs">
+            <img src="~/static/img/skills/expressjs.png" alt="expressjs" />
           </div>
           <strong class="d-block">Express JS</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/django.png" alt="django">
+            <img src="~/static/img/skills/django.png" alt="django" />
           </div>
           <strong class="d-block">Django</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/go.png" alt="go">
+            <img src="~/static/img/skills/go.png" alt="go" />
           </div>
           <strong class="d-block">Go</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/java.png" alt="java">
+            <img src="~/static/img/skills/java.png" alt="java" />
           </div>
           <strong class="d-block">Java</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/docker.png" alt="docker">
+            <img src="~/static/img/skills/docker.png" alt="docker" />
           </div>
           <strong class="d-block">Docker</strong>
         </div>
         <div class="col-md-2 col-6 mb-5 text-center">
           <div class="img mb-4">
-            <img src="~/static/img/skills/aws.png" alt="aws">
+            <img src="~/static/img/skills/aws.png" alt="aws" />
           </div>
           <strong class="d-block">AWS</strong>
         </div>
@@ -158,6 +162,6 @@
 
 <script>
 export default {
-  name: 'Skill'
-}
+  name: "Skill",
+};
 </script>

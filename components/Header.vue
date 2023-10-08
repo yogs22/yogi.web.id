@@ -1,7 +1,11 @@
 <!-- Please remove this file from your project -->
 <template>
   <header class="w-100 position-relative">
-    <img src="~/static/img/header.png" class="header-img" alt="yogi prasetyawan">
+    <img
+      src="~/static/img/header.png"
+      class="header-img"
+      alt="yogi prasetyawan"
+    />
     <div class="container h-100">
       <div class="row header-row h-100">
         <div class="col-md-7">
@@ -11,12 +15,23 @@
           </div>
           <div class="mb-4">
             <div class="w-75 w-sm-100">
-              <p class="m-0">Hello, I am a Software Engineer for about 5 years in the field of Software Engineering</p>
+              <p class="m-0">
+                I am a software engineer with
+                {{ new Date().getFullYear() - 2017 }} years of experience in
+                developing scalable and reliable software solutions
+              </p>
             </div>
           </div>
           <div class="pt-3">
-            <a href="#contact" class="btn btn-primary mr-md-3 mr-1">Contact Me</a>
-            <a href="https://drive.google.com/file/d/1Z0Bu6OgOZ_MI8MW-oLnnnnuUovBDnQ3Q/view?usp=sharing" target="_blank" class="btn btn-primary-outline">Download CV</a>
+            <a href="#contact" class="btn btn-primary mr-md-3 mr-1"
+              >Contact Me</a
+            >
+            <a
+              href="https://drive.google.com/file/d/1Z0Bu6OgOZ_MI8MW-oLnnnnuUovBDnQ3Q/view?usp=sharing"
+              target="_blank"
+              class="btn btn-primary-outline"
+              >Download CV</a
+            >
           </div>
         </div>
         <div class="col-lg-5"></div>
@@ -27,6 +42,6 @@
 
 <script>
 export default {
-  name: 'Header'
-}
+  name: "Header",
+};
 </script>

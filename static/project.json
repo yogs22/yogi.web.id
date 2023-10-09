@@ -20,7 +20,7 @@
     "img": "kaa-uajy.png",
     "slug": "kaa-uajy",
     "description": "<p>I took on the challenge of revamping the official website of kaa.uajy.ac.id, which was previously struggling with speed and security issues on its WordPress platform.</p><p>Leveraging my expertise, I migrated the website to Nuxt.js, a powerful Vue.js framework known for its speed and efficiency.</p>",
-    "url": "https://kaa-uajy.ac.id",
+    "url": "https://kaa.uajy.ac.id",
     "stack": ["nuxt", "laravel", "mysql", "bootstrap"]
   },
   {

@@ -8,7 +8,7 @@
     />
     <div class="container h-100">
       <div class="row header-row h-100">
-        <div class="col-md-7">
+        <div class="col-md-7" data-aos="zoom-in">
           <div class="mb-4 title">
             <strong>Hi 👋 I am</strong>
             <h1 class="m-0">Yogi Prasetyawan</h1>

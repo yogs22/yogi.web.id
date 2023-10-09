@@ -1,7 +1,7 @@
 <!-- Please remove this file from your project -->
 <template>
   <section id="experience" class="pt-3">
-    <div class="container">
+    <div class="container" data-aos="zoom-in" data-aos-offset="200">
       <h2 class="mt-0">Professional Experiences</h2>
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6 col-sm-12">

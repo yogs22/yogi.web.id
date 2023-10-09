@@ -1,159 +1,39 @@
-<!-- Please remove this file from your project -->
 <template>
   <section id="skill" class="bg-grey">
     <div class="container">
-      <div class="mb-5">
+      <div class="mb-5" data-aos="fade-up" data-aos-offset="200">
         <h2 class="mb-3">Programming Skills</h2>
-        <span class="d-block text-muted"
-          >The classification of levels is determined by the duration of my
+        <span class="d-block text-muted">
+          The classification of levels is determined by the duration of my
           experience utilizing the respective technology at the production
-          level.</span
+          level.
+        </span>
+      </div>
+      <div
+        v-for="(skillCategory, index) in skillCategories"
+        :key="index"
+        class="row"
+      >
+        <div class="col-12">
+          <div class="pt-2 mb-5">
+            <h3 :class="skillCategory.class">{{ skillCategory.title }}</h3>
+          </div>
+        </div>
+        <div
+          v-for="(skill, skillIndex) in skillCategory.skills"
+          :key="skillIndex"
+          class="col-md-2 col-6 mb-5 text-center"
         >
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="pt-2 mb-5">
-            <h3 class="text-danger">Medior & Expert Skills</h3>
+          <div
+            data-aos="fade-up"
+            data-aos-offset="400"
+            :data-aos-delay="((skillIndex % 6) + 1) * 150"
+          >
+            <div class="img mb-4">
+              <img :src="skill.imgSrc" :alt="skill.altText" />
+            </div>
+            <strong class="d-block">{{ skill.name }}</strong>
           </div>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/html-css.png" alt="html-css" />
-          </div>
-          <strong class="d-block">HTML & CSS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/javascript.png" alt="javascript" />
-          </div>
-          <strong class="d-block">Javascript</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/php.png" alt="php" />
-          </div>
-          <strong class="d-block">PHP</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/mysql.png" alt="mysql" />
-          </div>
-          <strong class="d-block">MySQL</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/laravel.png" alt="laravel" />
-          </div>
-          <strong class="d-block">Laravel</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/bootstrap.png" alt="bootstrap" />
-          </div>
-          <strong class="d-block">Bootstrap</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/tailwind.png" alt="tailwind" />
-          </div>
-          <strong class="d-block">Tailwind</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/vuejs.png" alt="vuejs" />
-          </div>
-          <strong class="d-block">Vue JS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/reactjs.png" alt="reactjs" />
-          </div>
-          <strong class="d-block">React JS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/nuxt.png" alt="nuxt" />
-          </div>
-          <strong class="d-block">Nuxt JS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/next.png" alt="next" />
-          </div>
-          <strong class="d-block">Next JS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/git.png" alt="git" />
-          </div>
-          <strong class="d-block">Git</strong>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-12">
-          <div class="pt-2 mb-5">
-            <h3 class="text-primary">Junior Skills</h3>
-          </div>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/nodejs.png" alt="nodejs" />
-          </div>
-          <strong class="d-block">Node JS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/python.png" alt="python" />
-          </div>
-          <strong class="d-block">Python</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/mongodb.png" alt="mongodb" />
-          </div>
-          <strong class="d-block">Mongo DB</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/firebase.png" alt="firebase" />
-          </div>
-          <strong class="d-block">Firebase</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/expressjs.png" alt="expressjs" />
-          </div>
-          <strong class="d-block">Express JS</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/django.png" alt="django" />
-          </div>
-          <strong class="d-block">Django</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/go.png" alt="go" />
-          </div>
-          <strong class="d-block">Go</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/java.png" alt="java" />
-          </div>
-          <strong class="d-block">Java</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/docker.png" alt="docker" />
-          </div>
-          <strong class="d-block">Docker</strong>
-        </div>
-        <div class="col-md-2 col-6 mb-5 text-center">
-          <div class="img mb-4">
-            <img src="~/static/img/skills/aws.png" alt="aws" />
-          </div>
-          <strong class="d-block">AWS</strong>
         </div>
       </div>
     </div>
@@ -163,5 +43,134 @@
 <script>
 export default {
   name: "Skill",
+  data() {
+    return {
+      skillCategories: [
+        {
+          title: "Medior & Expert Skills",
+          class: "text-danger",
+          skills: [
+            {
+              name: "HTML & CSS",
+              imgSrc: "/img/skills/html-css.png",
+              altText: "html-css",
+            },
+            {
+              name: "Javascript",
+              imgSrc: "/img/skills/javascript.png",
+              altText: "javascript",
+            },
+            {
+              name: "PHP",
+              imgSrc: "/img/skills/php.png",
+              altText: "php",
+            },
+            {
+              name: "MySQL",
+              imgSrc: "/img/skills/mysql.png",
+              altText: "mysql",
+            },
+            {
+              name: "Laravel",
+              imgSrc: "/img/skills/laravel.png",
+              altText: "laravel",
+            },
+            {
+              name: "Bootstrap",
+              imgSrc: "/img/skills/bootstrap.png",
+              altText: "bootstrap",
+            },
+            {
+              name: "Tailwind",
+              imgSrc: "/img/skills/tailwind.png",
+              altText: "tailwind",
+            },
+            {
+              name: "Vue JS",
+              imgSrc: "/img/skills/vuejs.png",
+              altText: "vuejs",
+            },
+            {
+              name: "Nuxt JS",
+              imgSrc: "/img/skills/nuxt.png",
+              altText: "nuxt",
+            },
+            {
+              name: "React JS",
+              imgSrc: "/img/skills/reactjs.png",
+              altText: "reactjs",
+            },
+            {
+              name: "Next JS",
+              imgSrc: "/img/skills/next.png",
+              altText: "next",
+            },
+            {
+              name: "React Native",
+              imgSrc: "/img/skills/reactjs.png",
+              altText: "reactjs",
+            },
+            {
+              name: "Git",
+              imgSrc: "/img/skills/git.png",
+              altText: "git",
+            },
+          ],
+        },
+        {
+          title: "Junior Skills",
+          class: "text-primary",
+          skills: [
+            {
+              name: "Node JS",
+              imgSrc: "/img/skills/nodejs.png",
+              altText: "nodejs",
+            },
+            {
+              name: "Python",
+              imgSrc: "/img/skills/python.png",
+              altText: "python",
+            },
+            {
+              name: "Mongo DB",
+              imgSrc: "/img/skills/mongodb.png",
+              altText: "mongodb",
+            },
+            {
+              name: "Firebase",
+              imgSrc: "/img/skills/firebase.png",
+              altText: "firebase",
+            },
+            {
+              name: "Express JS",
+              imgSrc: "/img/skills/expressjs.png",
+              altText: "expressjs",
+            },
+            {
+              name: "Django",
+              imgSrc: "/img/skills/django.png",
+              altText: "django",
+            },
+            { name: "Go", imgSrc: "/img/skills/go.png", altText: "go" },
+            {
+              name: "Java",
+              imgSrc: "/img/skills/java.png",
+              altText: "java",
+            },
+            {
+              name: "Docker",
+              imgSrc: "/img/skills/docker.png",
+              altText: "docker",
+            },
+            {
+              name: "AWS",
+              imgSrc: "/img/skills/aws.png",
+              altText: "aws",
+            },
+          ],
+        },
+      ],
+    };
+  },
 };
 </script>

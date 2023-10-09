@@ -3,14 +3,14 @@
   <section id="education">
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
+        <div class="col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-up-left">
           <img
             src="~/static/img/study.png"
             class="w-75"
             alt="education image"
           />
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12" data-aos="flip-left">
           <h2 class="mt-0">Educational Background</h2>
           <div class="container-journey">
             <div class="dot">

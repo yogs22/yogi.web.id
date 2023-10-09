@@ -1,35 +1,51 @@
 [
   {
+    "name": "Jogja Lodge",
+    "img": "jogjalodge.png",
+    "slug": "jogjalodge",
+    "description": "<p>I developed jogjalodge.com, a website designed from scratch with Laravel to make reservations easier at Jogja Lodge, an exclusive hostel located in Jogja. With a user-friendly interface, the site enables effortless browsing of room availability, selection of room types, and secure online payments.</p><p>I optimized the website's speed using advanced techniques, ensuring swift loading times. This project showcases my expertise in crafting efficient and visually appealing websites tailored to meet client needs.</p>",
+    "url": "https://jogjalodge.com",
+    "stack": ["laravel", "mysql", "bootstrap"]
+  },
+  {
+    "name": "MSBU Konsultan",
+    "img": "msbu.png",
+    "slug": "msbu",
+    "description": "<p>MSBU is Tech Staffing & Recruiting Company and i responsible to create a Landing Page and CMS using Express JS & Nuxt JS</p>",
+    "url": "https://msbu.co.id",
+    "stack": ["nuxt", "nodejs"]
+  },
+  {
+    "name": "KAA Atma Jaya University",
+    "img": "kaa-uajy.png",
+    "slug": "kaa-uajy",
+    "description": "<p>I took on the challenge of revamping the official website of kaa.uajy.ac.id, which was previously struggling with speed and security issues on its WordPress platform.</p><p>Leveraging my expertise, I migrated the website to Nuxt.js, a powerful Vue.js framework known for its speed and efficiency.</p>",
+    "url": "https://kaa-uajy.ac.id",
+    "stack": ["nuxt", "laravel", "mysql", "bootstrap"]
+  },
+  {
+    "name": "V-STORE",
+    "img": "vstore.jpeg",
+    "slug": "vstore",
+    "description": "<p>V-Store is a gaming top up website, in this project i used Next JS + Express JS to increase my knowledge</p>",
+    "url": "https://vstore-ten.vercel.app/",
+    "stack": ["reactjs", "next", "mongodb", "expressjs"]
+  },
+  {
+    "name": "Online Traffic Monitoring",
+    "img": "traffic-light.png",
+    "slug": "traffic-light",
+    "description": "<p>I developed a comprehensive realtime web-based traffic monitoring system with including features:</p><ul><li>Monitoring traffic light conditions</li><li>Providing access to live CCTV feeds</li><li>Tracking traffic flow and vehicle volume on specific road segments.</li><li>Vehicle counting traffic statistic</li><li>Using MQTT to communicate with hardware</li></ul><p>Collaborating closely with the Department of Transportation (Dishub), I successfully brought this innovative IoT project.</p>",
+    "url": "#",
+    "stack": ["laravel", "mysql"]
+  },
+  {
     "name": "D'Paragon",
     "img": "dparagon.png",
     "slug": "dparagon",
     "description": "<p>D'Paragon is the first exclusive boarding & guest house operator network in Indonesia with professional management. Currently already has around 50 branches and spread over 8 major cities. In this Company i use Laravel & Vue JS to handle all projects</p><p><h3>What i do ?</h3></p><p><strong>Develop the company ERP system</strong><br>Integrating all of D'Paragon division in one dashboard system with the module of: Finance, Accounting, Tax, Transaction / Reservation, Room Availability System, Inventory, Engineering, Audit, Front Office, HRD and Generate Report per division</p><p><strong>Make a new system or product with Laravel and Vue.js technology</strong><br>We make a sister company or new business to expand the market on Hospitality Business, as an example : Djuragan Kamar and Djuragan Voucher. There product is D'Paragon Sister Company, we develop that product with Laravel and Vue.js</p><p><strong>Make the IT SOP and migrate from previous IT vendor then we maintain it ourselves</strong><br>D'Paragon is not an IT Company, therefore before I entered, they used IT Vendor to make their system and application. Previously the D'Paragon App is using Firebase and Vue.js and the ERP System using Codeigneter, and finally we try to combine the system in one Technology that is using Laravel for Backend, Vue.js for Front End and React Native for Mobile Apps with more complex feature, more valuable, more clean design and more easy to use. And we trying to simply IT operational with using DevOps culture and Scrum Management.</p><p><strong>Developing new feature and fixing bug for all D'Paragon System</strong><br>I responsible for all of D'Paragon System. Every day i fix a bug and make the new feature to complement all of department need, not only that i was making the API to integrate ERP with Application Service.</p><p><strong>Train the operator system</strong><br>I responsible to train off D'Paragon Staff how to use the system with the specific role, presenting new feature and hear what the department need</p>",
     "url": "https://dparagon.com",
     "stack": ["vuejs", "laravel", "mysql", "bootstrap"]
-  },
-  {
-    "name": "Djuragan Kamar",
-    "img": "djurkam.png",
-    "slug": "djurkam",
-    "description": "<p>Djuragan Kamar or called Djurkam is a soft launching application in January 2019 in the city of Yogyakarta. Djurkam is an online company that we have created and developed in its service. Unlike other booking or traveling applications, Djurkam not only makes it easier to find suitable rooms, but Djurkam also help in managing room choices to the end, resulting in customer satisfaction. Djurkam's diverse application features will make consumers look for information about specific rooms to be selected.</p><p>I responsible to develop ERP System, API Services for Mobile and Booking System Website using Laravel",
-    "url": "https://djuragankamar.com",
-    "stack": ["vuejs", "laravel", "mysql", "bootstrap"]
-  },
-  {
-    "name": "Djuragan Voucher",
-    "img": "djurvoc.png",
-    "slug": "djurvoc",
-    "description": "<p>Djuragan Voucher is an Online Voucher Exchange Application Service that is Very Easy to Use by Tenant Djuragan Vouchers and Users of the Djuragan Voucher Application. This project have 5 Platform :</p><ol><li>Website</li><li>Management System</li><li>Member App</li><li>Merchant App</li><li>Operator App</li></ol><p>In this project i was manage the team, make an infrastructure and create an Rest API Service who consumed by Front End Web and Mobile Apps. I use Laravel for this project</p>",
-    "url": "https://djuraganvoucher.com",
-    "stack": ["nuxt", "laravel", "mysql"]
-  },
-  {
-    "name": "V-Store",
-    "img": "vstore.jpeg",
-    "slug": "vstore",
-    "description": "<p>V-Store is a gaming top up website, in this project i used Next JS + Express JS to increase my knowledge</p>",
-    "url": "https://vstore-ten.vercel.app/",
-    "stack": ["reactjs", "next", "mongodb", "expressjs", "nodejs"]
   },
   {
     "name": "Vexa Game Blog",
@@ -67,9 +83,33 @@
     "name": "Vexa Agen App",
     "img": "vexaagen-app.jpeg",
     "slug": "vexaagen-app",
-    "description": "<p>Vexa Agen is platform to order Internet Data, PPOB, Game etc with wholesale price. We use Laravel & Nuxt JS to handle this project. I have connected API with 3rd Party and receiving a webhook to update transactions statuses. And we make a user verification who the OTP Code is send to user Whatsapp. We using lot of integration with 3rd Party in this project</p>",
+    "description": "<p>Vexa Agen is a professional platform designed for seamless ordering of Internet Data, PPOB services, Games, and more at wholesale prices. Leveraging the power of Laravel and Nuxt JS, I meticulously developed and managed this project. Key features include seamless API integration with 3rd Party services, automated transaction status updates through webhooks, and user verification through OTP codes sent via WhatsApp. This project showcases our expertise in intricate integrations with various 3rd Party platforms.</p>",
     "url": "https://app.vexaagen.com/",
     "stack": ["laravel", "nuxt"]
+  },
+  {
+    "name": "Vexa Agen Mobile App",
+    "img": "vexaagen-mobile-app.png",
+    "slug": "vexaagen-mobile-app",
+    "description": "<p>The mobile version of Vexa Agen crafted with React Native</p>",
+    "url": "https://play.google.com/store/apps/details?id=com.vexa.agen",
+    "stack": ["reactjs"]
+  },
+  {
+    "name": "Djuragan Kamar",
+    "img": "djurkam.png",
+    "slug": "djurkam",
+    "description": "<p>Djuragan Kamar or called Djurkam is a soft launching application in January 2019 in the city of Yogyakarta. Djurkam is an online company that we have created and developed in its service. Unlike other booking or traveling applications, Djurkam not only makes it easier to find suitable rooms, but Djurkam also help in managing room choices to the end, resulting in customer satisfaction. Djurkam's diverse application features will make consumers look for information about specific rooms to be selected.</p><p>I responsible to develop ERP System, API Services for Mobile and Booking System Website using Laravel",
+    "url": "https://djuragankamar.com",
+    "stack": ["vuejs", "laravel", "mysql", "bootstrap"]
+  },
+  {
+    "name": "Djuragan Voucher",
+    "img": "djurvoc.png",
+    "slug": "djurvoc",
+    "description": "<p>Djuragan Voucher is an Online Voucher Exchange Application Service that is Very Easy to Use by Tenant Djuragan Vouchers and Users of the Djuragan Voucher Application. This project have 5 Platform :</p><ol><li>Website</li><li>Management System</li><li>Member App</li><li>Merchant App</li><li>Operator App</li></ol><p>In this project i was manage the team, make an infrastructure and create an Rest API Service who consumed by Front End Web and Mobile Apps. I use Laravel for this project</p>",
+    "url": "https://djuraganvoucher.com",
+    "stack": ["nuxt", "laravel", "mysql"]
   },
   {
     "name": "Corenglish",
@@ -78,14 +118,6 @@
     "description": "<p>I'm responsible to maintenance and slicing from sketch design to deployed website with Next JS & Strapi</p>",
     "url": "https://corenglish-landing-next.vercel.app/",
     "stack": ["nextjs", "reactjs"]
-  },
-  {
-    "name": "MSBU",
-    "img": "msbu.png",
-    "slug": "msbu",
-    "description": "<p>MSBU is Tech Staffing & Recruiting Company and i responsible to create a Landing Page with CMS using Node JS & Nuxt JS</p>",
-    "url": "https://msbu.co.id",
-    "stack": ["nuxt", "nodejs"]
   },
   {
     "name": "Pantai Cahaya",
@@ -136,6 +168,14 @@
     "stack": ["laravel", "bootstrap"]
   },
   {
+    "name": "IMM QR Generator",
+    "img": "imm.jpg",
+    "slug": "imm",
+    "description": "<p>I collaborated on a project with PT. Idea Multiple Management, a management consultancy firm. I developed an automated system to generate QR Codes and Shortlinks containing links to certificates for participants of management seminars organized by PT. Idea Multiple Management.</p>",
+    "url": "#",
+    "stack": ["laravel", "tailwind"]
+  },
+  {
     "name": "Restu Dunia",
     "img": "restudunia.png",
     "slug": "restudunia",
@@ -166,14 +206,6 @@
     "description": "<p>Jadi Ratu is wordpress template, i responsible to create the interface</p>",
     "url": "https://jadiratu.netlify.app/",
     "stack": ["wordpress", "bootstrap"]
-  },
-  {
-    "name": "Kudatempur Furniture",
-    "img": "kudatempur.jpeg",
-    "slug": "kudatempur",
-    "description": "<p>Kudatempur is furniture company in Magelang City. Able to create the web interface</p>",
-    "url": "https://kudatempur.netlify.app",
-    "stack": ["bootstrap"]
   },
   {
     "name": "Wallo App",

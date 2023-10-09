@@ -2,7 +2,7 @@
   <!-- important to add template-->
   <section id="project" class="bg-primary text-white">
     <div class="container">
-      <div class="text-center mb-4">
+      <div class="text-center mb-4" data-aos="zoom-out">
         <h2 class="mb-2">Take a look at my recent projects</h2>
         <p>
           I have completed various projects with different technologies. The
@@ -26,7 +26,7 @@
             v-for="(project, key) in projects"
             :key="key"
           >
-            <div class="project">
+            <div class="project" data-aos="zoom-out">
               <nuxt-link :to="`/project/${project.slug}`">
                 <div class="project-header">
                   <img

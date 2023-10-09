@@ -115,7 +115,8 @@ h2 {
 /** button **/
 .btn {
   text-align: center;
-  border-radius: 3px;
+  border-radius: 8px;
+  font-weight: 600;
   padding: 15px 35px;
   transition: 0.2s ease-in;
   -webkit-transition: 0.2s ease-in;

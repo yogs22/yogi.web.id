@@ -184,7 +184,7 @@ header .header-row {
 .project {
   background-color: var(--white);
   color: var(--black);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .project-body {

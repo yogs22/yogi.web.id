@@ -4,9 +4,11 @@
     <div class="container">
       <div class="row d-flex justify-content-center align-items-center">
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0" data-aos="fade-up-left">
-          <img
-            src="~/static/img/study.png"
+          <NuxtImg
+            src="/img/study.png"
+            format="webp"
             class="w-75"
+            loading="eager"
             alt="education image"
           />
         </div>

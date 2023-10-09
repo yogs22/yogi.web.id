@@ -53,8 +53,9 @@
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
-          <img
-            src="~/static/img/experience.png"
+          <NuxtImg
+            src="/img/experience.png"
+            loading="eager"
             class="w-100"
             alt="education image"
           />

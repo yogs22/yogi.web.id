@@ -77,7 +77,7 @@
     "slug": "vexaagen-web",
     "description": "<p>Vexa Agen is platform to order Internet Data, PPOB, Game etc with wholesale price, i make the landing page to indtroduce what is Vexa Agen using Laravel & Bootstrap</p>",
     "url": "https://vexaagen.com/",
-    "stack": ["laravel", "nuxt"]
+    "stack": ["laravel", "nuxt", "mysql", "gitlab-ci"]
   },
   {
     "name": "Vexa Agen App",

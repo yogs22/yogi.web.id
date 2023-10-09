@@ -39,10 +39,14 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxt/image"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  image: {
+    format: ["webp"],
+  },
 
   server: {
     port: 9201, // default: 3000

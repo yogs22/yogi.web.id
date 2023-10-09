@@ -29,7 +29,9 @@
             <div class="project" data-aos="zoom-out">
               <nuxt-link :to="`/project/${project.slug}`">
                 <div class="project-header">
-                  <img
+                  <NuxtImg
+                    loading="eager"
+                    format="webp"
                     :src="`/img/projects/${project.img}`"
                     class="w-100"
                     :alt="`${project.name} project`"

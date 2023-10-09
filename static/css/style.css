@@ -229,6 +229,15 @@ header .header-row {
   margin: auto;
 }
 
+.img-detail img {
+  max-width: 10%;
+}
+
+@media screen and (max-width: 599px) {
+  .img-detail img {
+    max-width: 14%;
+  }
+}
 /** testi **/
 #testimoni {
   background: url('~/static/img/bg-testi.png');

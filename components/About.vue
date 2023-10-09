@@ -4,9 +4,11 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-5" data-aos="fade-right">
-          <img
-            src="~/static/img/about.png"
+          <NuxtImg
+            src="/img/about.png"
+            format="webp"
             class="w-100 m-auto d-block"
+            loading="eager"
             alt="about yogi"
           />
         </div>

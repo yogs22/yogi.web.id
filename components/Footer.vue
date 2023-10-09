@@ -29,8 +29,10 @@
             class="ml-2"
             target="_blank"
           >
-            <img
-              src="~/static/img/vector/whatsapp.svg"
+            <NuxtImg
+              format="webp"
+              loading="eager"
+              src="/img/vector/whatsapp.svg"
               class="socmed"
               alt="whatsapp"
             />
@@ -40,15 +42,19 @@
             class="ml-2"
             target="_blank"
           >
-            <img
-              src="~/static/img/vector/linkedin.svg"
+            <NuxtImg
+              format="webp"
+              loading="eager"
+              src="/img/vector/linkedin.svg"
               class="socmed"
               alt="linkedin"
             />
           </a>
           <a href="https://github.com/yogs22" class="ml-2" target="_blank">
-            <img
-              src="~/static/img/vector/github.svg"
+            <NuxtImg
+              format="webp"
+              loading="eager"
+              src="/img/vector/github.svg"
               class="socmed"
               alt="github"
             />
@@ -58,8 +64,10 @@
             class="ml-2"
             target="_blank"
           >
-            <img
-              src="~/static/img/vector/instagram.svg"
+            <NuxtImg
+              format="webp"
+              loading="eager"
+              src="/img/vector/instagram.svg"
               class="socmed"
               alt="instagram"
             />
@@ -75,7 +83,12 @@
         <div class="col-md-6 text-md-right text-center">
           <div class="position-relative mt-md-0 mt-2">
             <div class="pt-1 d-inline">
-              <img src="~/static/img/vector/map-pin.svg" class="mr-2 pin" />
+              <NuxtImg
+                format="webp"
+                loading="eager"
+                src="/img/vector/map-pin.svg"
+                class="mr-2 pin"
+              />
             </div>
             <div class="d-inline">
               <span class="text-muted">Yogyakarta, Indonesia</span>

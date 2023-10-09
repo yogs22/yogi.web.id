@@ -25,10 +25,12 @@
               data-aos-offset="300"
               :data-aos-delay="(index + 1) * 300"
             >
-              <img
+              <NuxtImg
                 :src="award.imageSrc"
                 :alt="award.altText"
                 class="mb-3"
+                format="webp"
+                loading="eager"
                 :width="award.imageWidth"
               />
               <strong class="d-block mb-1">{{ award.title }}</strong>

@@ -1,14 +1,17 @@
 <!-- Please remove this file from your project -->
 <template>
   <header class="w-100 position-relative">
-    <img
-      src="~/static/img/header.png"
+    <NuxtImg
+      src="/img/header.png"
+      format="webp"
       class="header-img"
       alt="yogi prasetyawan"
+      loading="eager"
+      priority
     />
     <div class="container h-100">
       <div class="row header-row h-100">
-        <div class="col-md-7" data-aos="zoom-in">
+        <div class="col-md-7" data-aos="fade-down">
           <div class="mb-4 title">
             <strong>Hi 👋 I am</strong>
             <h1 class="m-0">Yogi Prasetyawan</h1>

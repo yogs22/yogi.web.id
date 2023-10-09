@@ -4,7 +4,9 @@
       <div class="row pt-5">
         <div class="col-md-5">
           <a :href="`/img/projects/${project.img}`" target="_blank">
-            <img
+            <NuxtImg
+              format="webp"
+              loading="eager"
               :src="`/img/projects/${project.img}`"
               class="w-100"
               :alt="`${project.name} project`"
@@ -32,8 +34,16 @@
                 >
               </div>
               <div class="col-md-8">
-                <div class="img d-inline mr-4" v-for="img in project.stack">
-                  <img :src="`/img/skills/${img}.png`" :alt="img" />
+                <div
+                  class="img-detail d-inline mr-4"
+                  v-for="img in project.stack"
+                >
+                  <NuxtImg
+                    loading="eager"
+                    format="webp"
+                    :src="`/img/skills/${img}.png`"
+                    :alt="img"
+                  />
                 </div>
               </div>
             </div>

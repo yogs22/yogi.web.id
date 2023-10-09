@@ -26,11 +26,16 @@
         >
           <div
             data-aos="fade-up"
-            data-aos-offset="400"
+            data-aos-offset="300"
             :data-aos-delay="((skillIndex % 6) + 1) * 150"
           >
             <div class="img mb-4">
-              <img :src="skill.imgSrc" :alt="skill.altText" />
+              <NuxtImg
+                loading="eager"
+                format="webp"
+                :src="skill.imgSrc"
+                :alt="skill.altText"
+              />
             </div>
             <strong class="d-block">{{ skill.name }}</strong>
           </div>
@@ -111,9 +116,34 @@ export default {
               altText: "reactjs",
             },
             {
+              name: "Typescript",
+              imgSrc: "/img/skills/typescript.png",
+              altText: "typescript",
+            },
+            {
+              name: "Remix",
+              imgSrc: "/img/skills/remix.png",
+              altText: "remix",
+            },
+            {
+              name: "Shadcn UI",
+              imgSrc: "/img/skills/shadcn.png",
+              altText: "shadcn",
+            },
+            {
+              name: "Wordpress",
+              imgSrc: "/img/skills/wordpress.png",
+              altText: "wordpress",
+            },
+            {
               name: "Git",
               imgSrc: "/img/skills/git.png",
               altText: "git",
+            },
+            {
+              name: "Gitlab CI",
+              imgSrc: "/img/skills/gitlab-ci.png",
+              altText: "gitlab-ci",
             },
           ],
         },
@@ -166,6 +196,16 @@ export default {
               name: "AWS",
               imgSrc: "/img/skills/aws.png",
               altText: "aws",
+            },
+            {
+              name: "Jenkins",
+              imgSrc: "/img/skills/jenkins.png",
+              altText: "jenkins",
+            },
+            {
+              name: "PostgreSQL",
+              imgSrc: "/img/skills/postgresql.png",
+              altText: "postgresql",
             },
           ],
         },

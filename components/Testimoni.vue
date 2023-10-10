@@ -2,7 +2,7 @@
 <template>
   <section id="testimoni">
     <div class="container text-center">
-      <div class="mb-3" data-aos="zoom-out" data-aos-offset="400">
+      <div class="mb-3" data-aos="zoom-out" data-aos-offset="300">
         <h2 class="mb-3">What People Says</h2>
         <span class="text-muted d-block mb-2"
           >See people who give me a recomendations</span
@@ -15,7 +15,7 @@
           :key="index"
           class="p-0 pt-5 px-md-5"
           data-aos="zoom-out"
-          data-aos-offset="400"
+          data-aos-offset="300"
         >
           <div class="container-fluid">
             <div class="px-md-5">

@@ -76,7 +76,8 @@ header {
 }
 
 header .header-img {
-  width: 45%;
+  width: auto;
+  height: 80vh;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -91,15 +92,9 @@ header .header-row {
   align-items: center;
 }
 
-@media screen and (min-width: 1920px) {
-  header .header-img {
-    width: 524px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   header .header-img {
-    width: 50%;
+    max-height: 45vh;
   }
 
   header .title,
@@ -120,10 +115,6 @@ header .header-row {
   header .title,
   header h1 {
     font-size: 40px;
-  }
-
-  header .header-img {
-    width: 100%;
   }
 
   header .btn {

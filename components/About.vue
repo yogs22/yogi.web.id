@@ -17,10 +17,10 @@
           <h2 class="m-0">Know More About Me</h2>
           <p style="text-align: justify">
             I am currently working as a Frontend Engineer at Luwjistik, where my
-            main responsibility is maintaining a interface of Logistics SaaS
-            using Vue & React. In addition to my regular work, I've had the
-            opportunity to work on a variety of freelance projects as a
-            Fullstack Engineer in different fields of business.
+            main responsibility is maintaining company product interface using
+            Vue and React. In addition to my primary role, I had the opportunity
+            to contribute to various part-time projects as a Fullstack Engineer
+            across different field of business.
           </p>
           <p class="mb-4"><strong>Languages</strong></p>
           <span class="d-block mb-2">🇮🇩 Indonesia Native</span>

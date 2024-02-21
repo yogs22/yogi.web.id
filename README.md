@@ -1,4 +1,4 @@
-# yogs
+# Yogs Portfolio Page
 
 ## Build Setup
 
